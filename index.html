@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+      <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+        <title>App Flow Redesign</title>
+        <link rel="stylesheet" href="styles.css">
+    <style>   
+    </style>
+    </head>
+    <body>
+
+<div class="grid-container">
+  <div class="header">
+      <img align = "center" src = "images/MCR_logo.png" alt = "MCR logo" width="25%">
+     <h4 align = "center">App Flow Redesign Case Study</h4> 
+  </div>
+  
+  <div class="middle">
+    <h4>My Chapter Room UX Case Study</h4>
+      <h5><em>Design Question: How might we improve the experience of students using MyChapterRoom?</em></h5>
+      
+      <p>My Chapter Room (MCR) is a website and service that allows organizations to communicate with members in one central location. It consolidates tasks such as email lists, attendance, polls, and messaging.</p>
+      <p>As a student, I have been in organizations that use MCR, and have many friends who have also had to use it in their clubs and/or Greek orgs. I personally had a few pain points when it came to using My Chapter Room, specifically using the mobile app. While convenient that there was only one app I needed to use, I found it fell short in many areas. The app was very much  a “Jack of all trades, and master of none.”</p>
+      <p>The app was definitely still usable, so I cast away my qualms. But as I began to hear complaints from other students (usually casual jabs at the app, but still complaints nonetheless), I decided I would take a closer look. I conducted user research, and by identifying user’s pain points I was able to redesign the MCR app for much better usability.</p>
+      
+      <h4>User Research</h4>
+      <p>I first got a pool of people to take a survey of their experiences with My Chapter Room from a variety of organizations. The survey was anonymous, but I left a space at the end to allow people to write their name if they were willing to be interviewed further about their answers. I got 21 people to fill out the survey, and interviewed 4 of them.</p>
+      <h5><em>The Questions:</em></h5>
+      <ol>
+          <li>What organization(s) are you in that uses MCR?</li>
+          <li>How do you access MCR?</li>
+          <li>What feature of MCR do you use the most?</li>
+          <li>Which feature do you believe needs the most improvements?</li>
+          <li>Elaborate above</li>
+          <li>Rate your overall satisfaction with the MCR app</li>
+          <li>Name/Email (optional)</li>
+          
+      </ol>
+      
+      <h4>The Findings</h4>
+       <figure>
+        <img src = "images/survey1.png" alt = "Survey Results" width="75%">
+        <figcaption>Almost half of users access MCR exclusively through the mobile app, while a large percentage use both the desktop site and the mobile app.</figcaption>
+    </figure>
+    <figure>
+        <img src = "images/survey2.png" alt = "Survey Results" width="75%">
+        <figcaption>The features used the most by users are the events and the attendance Log</figcaption>
+    </figure>
+     <figure>
+        <img src = "images/survey3.png" alt = "Survey Results" width="75%">
+        <figcaption>The feature that users believed needed the most improvement was the event calendar by a large margin, with the attendance feature coming in second.</figcaption>
+    </figure>
+      
+      <h4>Analysis</h4>
+      <p>Based on this data, I decided to go forward with redesigning the user flow of checking the events for the upcoming day, week, and month. </p>
+      <h5>Current Design</h5>
+      <img align = "center" src = "images/dash_old.png" alt = "current dashboard design" width="20%">
+      <img align = "center" src = "images/menu.png" alt = "current menu design" width="20%">
+      <img align = "center" src = "images/eventlist.png" alt = "current events design" width="20%">
+      <p>When you open the app, the home screen is a dashboard with different blocks/widgets. To go to the events, you can click on the upcoming events widget, or go to the hamburger menu in the top left corner. Then you can click ‘Events’. 
+    In the events page, there is a dropdown menu that lets you select the month. Underneath will show a long scrollable list of events in chronological order. </p>
+    <img align = "center" src = "images/desktop.jpg" alt = "MCR desktop dash" width="50%">
+      <p>I also evaluated the MCR’s desktop site to see what design features could be carried over to the mobile app.</p>
+      <p>The desktop version of the events page includes a monthly view and some color differentiation. I knew I wanted to include a monthly view for the app, but I also wanted to have more in depth organization of events using color coordination, such as different colors between events for all members, committee events, and school holidays.</p>
+   
+      <h5>Pain Points</h5>
+     <p>Based on the survey answers and further interviews, there were a few common pain points with the current design of the app</p>
+      <ul>
+          <li>The events are not emphasized enough on the homepage/dashboard</li>
+          <li>There is only a list view of all the events</li>
+          <li>Events that have already passed are still shown because the list always starts on the first of the month</li>
+          <li>You have to scroll far to see upcoming events if it is later in the month</li>
+          <li>There is no weekly view or monthly view</li>
+          <li>The dates are small and it is hard to differentiate which events go with which date</li>
+          <li>All the events are the same color</li>
+          
+      </ul>
+      <h4>The Solution</h4>
+      <p>To remedy these pain points I redesigned the event calendar to:</p>
+       <ul>
+           <li>Have a larger and more clear dashboard widget</li>
+        <li>Color coordinate based on type of event</li>
+        <li>Open on the current day’s events</li>
+        <li>Have a daily/weekly view with event details</li>
+        <li>Have a monthly overview</li>
+        <li>Be more consistent with the desktop site design</li>
+      </ul>
+      <img src = "images/dash.png" alt = "redesigned app dash" width="25%">
+      <p>The events dashboard widget was moved above the mail, because the mail is often just a repeat of an announcement. It was also made bigger in order to see more events. </p>
+      <br>
+      <img  src = "images/daily.png" alt = "daily calendar" width="25%">
+      <img src = "images/daily2.png" alt = "daily calendar expanded" width="25%">
+      <p>For the daily/weekly view, the dates are listed across the top, and you will automatically open to the current date. The events for that day are listed and also color coded based on type of event. If you click an event, it will expand to show you more details. In the bottom right corner, there is a button that lets you switch to the monthly view.</p>
+      <br>
+      <img src = "images/monthly.png" alt = "monthly overview" width="25%">
+      <p>When designing the monthly overview, I discovered listing every event in each box was cramped and would require a very small font. Instead, I decided to add colored dots to represent the events. The days that have dots are the days that have events. The number of dots equals the number of events, and the color of dot shows what kind of event it is. If you click on a event, it will take you to the event details within the daily view.</p>
+      
+      <h4>Thank You</h4>
+      <p>This project was created as for SMAD308: Interactive Design II, a course at <a href="https://www.jmu.edu/">James Madison University</a></p>
+      
+    </div>
+ 
+  
+  
+  <div class="footer" >
+  <p >Taylor Pham 2021</p>
+  </div>
+</div>
+    </body>
+    </html>
